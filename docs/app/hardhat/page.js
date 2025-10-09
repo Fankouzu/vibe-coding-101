@@ -254,7 +254,7 @@ task("accounts", "Prints accounts", async (taskArgs, hre) => {
                 <div className="flex-1">
                   <h4 className="font-semibold mb-2">创建 Hardhat 项目</h4>
                   <div className="bg-slate-50 p-3 rounded font-mono text-sm">
-                    npx hardhat init
+                    npx hardhat --init
                   </div>
                 </div>
               </div>
